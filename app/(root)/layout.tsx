@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/shared/header";
 
-export default function Layout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
